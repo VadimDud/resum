@@ -7,8 +7,13 @@
   body {
 	font-family: sans-serif;
   }
-
-  
+  #summary,
+  #technic,
+  #expernote,
+  #othexp
+   {
+    margin-left: 10px;
+ }
   #calendar {
     position: absolute;
     top: 50px;
