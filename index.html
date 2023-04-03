@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <!-- <title>Календарь</title> --> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+   <script id="local">              
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        locale: 'en-gb',
+      });
+      calendar.render();
+
+      // Add click event listeners to buttons
+      document.getElementById('russianBtn').addEventListener('click', function() {
+        calendar.setOption('locale', 'ru');
+      }); // Add the missing closing curly brace
+
+      document.getElementById('englishBtn').addEventListener('click', function() {
+        calendar.setOption('locale', 'en-gb');
+      }); // Add the missing closing parenthesis
+    });
+                      </script>
+   <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.5/index.global.min.js'></script>
+   <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.5/index.global.min.js'></script>
+
+</head>
+<body>
+    <!--main block-->
+    
+    <section class="whole">
+                <div class="container">
+                    <button class="button" id="showCa">Show Calendar</button>
+                    <!-- <div id="calendar"></div>  -->
+                    <button id="englishBtn" class="active">English</button>
+                    <button id="russianBtn">Russian</button>
+                    <script src="calendar.js"></script>
+
+            <div class="navbar">
+                <span class="brand">
+                    <p id="nContent">Vadim Dudkin</p>
+                </span>
+                <div class="synctoskill">
+                    <button id="Linkedin" onclick="location.href='https://www.linkedin.com/in/vadim-dudkin-07607a245'" type="button">Linkedin</button>
+                </div> 
+               </div>
+                <h5 class="discription" id="spec">Tester/QA</h5>
+            </div> <!--/.navbar -->
+        </div>
+            <div class="line"></div>
+    
+            <section class="about">
+                
+                    <div class="main-image">
+                        <div class="note" id="sContent">Summary</div>
+                    </div>
+                    <img src="images/maine-image.png" />
+                
+                <span class="about" id="summary">
+● Hands-on experience and formal training in testing web and mobile software applications
+● Knowledge of software testing methodologies, tools and processes                    
+● Automation engineer for 14 years, system testing                    
+● Develop solid test documentation including test cases, test suits, test matrices, etc.                    
+● Experience in writing clear, concise, easy-to-reproduce bug reports                    
+● Enjoy working as a member of a result-driven team                    
+● Strong analytical, problem-solving                    
+● Multilingual: Russian (native), English (intermediate)                                        
+                </span>
+            </section>
+    
+            <div class="line"></div>
+    
+            <section class="Technical_skills">
+                
+                    <div class="main-image">
+                        <span class="note" id="techslills">Technical Skills</span>
+                    </div>
+                    <img src="images/maine-image.png" />
+                <span class="Technical_skills" id="technic">
+Programming: HTML, CSS, Python, SQL, JS
+Automation: fundamentals of Selenium Webdriver with Python
+Bug Tracking: VersionOne, Elementool
+Design Tools: Figma, Sketch, Invision, Photoshop
+OS/Platforms: Windows, MAC, iOS, Android
+Browsers: Chrome, Safari, FireFox, Opera, Tor Browser, Edge
+Database: fundamentals of Oracle, MS SQL Server, MS Access
+Tools: Slack, Github, ADB, Postman
+                    </span>
+                          
+            </section>
+    
+            <div class="line"></div>
+    
+            <section class="experience">
+                
+                    <div class="main-image">
+                        <div class="note" id="exper">Software Testing Experience</div>
+                    </div>
+                    <img src="images/maine-image.png" />
+               
+                <span class="experience" id="expernote">
+● Project: Web/Mobile/Windows cross-platform application for business communication/project management tool
+● Studied business and technical requirements to understand the product features                    
+● Developed and maintained test documentation such as test cases, test suites, contributed to the test plan
+● Executed test procedures against new builds
+● Took part in regression, build acceptance, integration and system level testing
+● Tested user interface along the guidelines published by the US Department of Health and Human Services
+● Reported software anomalies and defects using Jira, verified bugs fixed
+● Communicated with other cross-functional team members to identify resolve issues
+● Participated in Agile Scrum meeting and other Agile rituals
+● Utilized Postman for testing web services (REST API testing)
+                </span>
+            </section>
+    
+            <div class="line"></div>
+    
+            <section class="other">
+                
+                    <div class="main-image">
+                        <div class="note" id="other">Other Experience</div>
+                    </div>
+                    <img src="images/maine-image.png" />
+               
+         <span class="other" id="othexp">
+Company: PHOENIX GROUPP LLC
+Period: 11/19 - Present
+Company: Thermopilot LLC
+Period: 11/08 – 11/19
+Position: Automation and Instrumental Engineer
+Responsibilities: Helped with installation and maintenance multiple products for customers
+Understanding who our client is
+System testing: installation, testing, adjustment of the boundaries of behavior of safety 
+automation and correct operation of equipment, etc.
+Worked with all stakeholders to develop recommendations for project roadmaps
+Developed technical documentation - requirements, specifications, etc.
+Performed extensive research and analysis to identify new business opportunities                                             
+                </span>
+               
+            </section> </div> 
+            <!-- /.container -->
+        <div id="running-textt"></div>
+        <script src="runningtext.js"></script>   
+    <script src="enru.js"></script>
+  
+        </body>
+    </html>
