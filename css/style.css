@@ -137,13 +137,7 @@
   background-color: #34C6FD;
   box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5);
   }
-  
-  .background {
-	height: 50px;
-	width: 150px;
-	margin: auto;
-  }
-  
+
   .line {
 	width: 76%;
 	border-bottom: 2px solid #534B3B;
