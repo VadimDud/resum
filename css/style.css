@@ -4,11 +4,25 @@
 	box-sizing: border-box;
   }
   
+  .jmeter {
+    width: 200px; /* Укажите нужную ширину картинки */
+    height: 200px; /* Укажите нужную высоту картинки */
+    border: 1px solid black; /* Добавьте границу */
+    border-radius: 50%; /* Добавьте закругление */
+    box-shadow: 2px 2px 5px gray; /* Добавьте тень */
+  }
+  
+
   body {
 	font-family: sans-serif;
   }
-
-  
+  #summary,
+  #technic,
+  #expernote,
+  #othexp
+   {
+    margin-left: 10px;
+ }
   #calendar {
     position: absolute;
     top: 50px;
