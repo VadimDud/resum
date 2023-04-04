@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-    <title>Resume</title> 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-   <script id="local">              
-    document.addEventListener('DOMContentLoaded', function() {
-      var calendarEl = document.getElementById('calendar');
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth',
-        locale: 'en-gb',
-      });
-      calendar.render();
-
-      // Add click event listeners to buttons
-      document.getElementById('russianBtn').addEventListener('click', function() {
-        calendar.setOption('locale', 'ru');
-      }); // Add the missing closing curly brace
-
-      document.getElementById('englishBtn').addEventListener('click', function() {
-        calendar.setOption('locale', 'en-gb');
-      }); // Add the missing closing parenthesis
-    });
-                      </script>
-   <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.5/index.global.min.js'></script>
-   <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.5/index.global.min.js'></script>
-
-</head>
+    <head> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <title>Resume</title> 
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.5/index.global.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.5/index.global.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
+                    initialView: 'dayGridMonth',
+                    locale: 'en-gb',
+                });
+                
+                calendar.render();
+    
+                // Add click event listeners to buttons
+                document.getElementById('russianBtn').addEventListener('click', function() {
+                    calendar.setOption('locale', 'ru');
+                });
+    
+                document.getElementById('englishBtn').addEventListener('click', function() {
+                    calendar.setOption('locale', 'en-gb');
+                });
+            });
+        </script>
+       
+    </head>
+    
 <body>
     <!--main block-->
     
