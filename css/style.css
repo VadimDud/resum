@@ -4,15 +4,6 @@
 	box-sizing: border-box;
   }
   
-  .jmeter {
-    width: 200px; /* Укажите нужную ширину картинки */
-    height: 200px; /* Укажите нужную высоту картинки */
-    border: 1px solid black; /* Добавьте границу */
-    border-radius: 50%; /* Добавьте закругление */
-    box-shadow: 2px 2px 5px gray; /* Добавьте тень */
-  }
-  
-
   body {
 	font-family: sans-serif;
   }
@@ -97,11 +88,16 @@
   }
   
   .discription {
-	display: flex;
-	margin: 25px auto 0 300px;
-	color: #534B3B;
-	font-size: 20px;
-	font-weight: 700;
+    display: flex;
+    margin: 20px auto 0px;
+    color: #534B3B;
+    font-size: 20px;
+    font-weight: 700;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .synctoskill {
