@@ -25,6 +25,7 @@
     box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5)
 }
 
+
   .whole {
 	max-width: 800px;
 	width: 96%;
@@ -131,7 +132,6 @@
 	margin: 0 auto;
 	background-color: #34C6FD;
 	font-family: cursive;
-  background-color: #34C6FD;
   box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5);
   }
 
@@ -159,3 +159,41 @@
   .paragraph {
 	text-align: center;
   }
+
+  /* styles for tablets */
+@media (max-width: 200px) {
+  .whole {
+    width: 200px;
+    
+  }
+}
+@media (max-width: 420px) {
+  .about, .Technical_skills, .experience, .other, .othexp {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    white-space: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+    
+  }
+  @media (max-width: 420px) 
+     {
+      .main-image {
+        margin: 0 auto;
+        font-family: cursive;
+        max-width: 216px;
+        height: 22px;
+        margin: 30px auto;
+        background-color: aliceblue;
+        font-family: cursive;
+        box-shadow: -19px -6px 13px rgba(-13, 27, 22, -0.5);
+        }
+      
+      img {
+        display: none;
+      }
+
+}
+      
