@@ -26,7 +26,21 @@ const eng = {
     "Database: PostgreSQL, MS SQL Server, MS Access \n" +
     "Tools: Slack, Github, ADB, Postman, JMeter",
     techslills:"Technical Skills",
-    expernote:"Company: 'SyncToSkill', startup, IT platform \n Period: 01.22/present \n  Moscow \n Information technology, system integration, Internet\n Position: Tester \n● Project: Web/Mobile/Windows cross-platform application for business communication/project management tool \n● Studied business and technical requirements to understand the product features \n ● Developed and maintained test documentation such as test cases, test suites, contributed to the test plan \n ● Executed test procedures against new builds \n ● Took part in regression, build acceptance, integration and system level testing \n ● Tested user interface along the guidelines published by the US Department of Health and Human Services \n ● Reported software anomalies and defects using Jira, verified bugs fixed \n ● Communicated with other cross-functional team members to identify resolve issues \n ● Participated in Agile Scrum meeting and other Agile rituals \n ● Utilized Postman for testing web services (REST API testing)",
+    expernote:
+    "Company: 'SyncToSkill', startup, IT platform \n"+
+    "Period: 01.22/present \n"+
+    "Moscow \n Information technology, system integration, Internet\n"+
+    "Position: Tester \n"+
+    "● Project: Web/Mobile/Windows cross-platform application for business communication/project management tool \n"+
+    "● Studied business and technical requirements to understand the product features \n"+
+    "● Developed and maintained test documentation such as test cases, test suites, contributed to the test plan \n"+
+    "● Executed test procedures against new builds \n"+
+    "● Took part in regression, build acceptance, integration and system level testing \n"+
+    "● Tested user interface along the guidelines published by the US Department of Health and Human Services \n"+
+    "● Reported software anomalies and defects using Jira, verified bugs fixed \n"+ 
+    "● Communicated with other cross-functional team members to identify resolve issues \n"+ 
+    "● Participated in Agile Scrum meeting and other Agile rituals \n"+ 
+    "● Utilized Postman for testing web services (REST API testing)",
     showcalendar: "Show calendar",
     exper: "Software Testing Experience",
     other: "Other Experience",
