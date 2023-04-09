@@ -188,9 +188,10 @@
         margin: 30px auto;
         background-color: aliceblue;
         font-family: cursive;
-        box-shadow: -19px -6px 13px rgba(-13, 27, 22, -0.5);
         }
-      
+      .note{display: flex;
+        margin-top: -26px;}
+      .exper.note{ max-width: 150;}
       img {
         display: none;
       }
