@@ -169,10 +169,10 @@
 }
 @media (max-width: 420px) {
   .about, .Technical_skills, .experience, .other, .othexp {
-    display: block;
+    display: table;
     justify-content: space-between;
     align-items: center;
-    white-space: inherit;
+    white-space: pre-line;
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
 }

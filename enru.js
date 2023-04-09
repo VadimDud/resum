@@ -29,7 +29,7 @@ const eng = {
     expernote:
     "Company: 'SyncToSkill', startup, IT platform \n"+
     "Period: 01.22/present \n"+
-    "Moscow \n Information technology, system integration, Internet\n"+
+    "Moscow \n Information technology, system integration, Internet  \n"+
     "Position: Tester \n"+
     "● Project: Web/Mobile/Windows cross-platform application for business communication/project management tool \n"+
     "● Studied business and technical requirements to understand the product features \n"+
@@ -82,11 +82,10 @@ const eng = {
     techslills:"Технические Навыки",
     exper: "Опыт тестирования программного обеспечения",
     expernote:
-    "'SyncToSkill', стартап, IT платформа\n"+ 
-    "01.22/по настоящее время\n"+ 
-    "Москва\n"+ 
-    "Информационные технологии, системная интеграция, интернет\n"+
-    "Системная интеграция, автоматизации технологических и бизнес-процессов предприятия, ИТ-консалтинг\n"+
+    "'SyncToSkill', стартап, IT платформа  \n"+ 
+    "01.22/по настоящее время  \n"+ 
+    "Москва  \n"+ 
+    "Информационные технологии, системная интеграция, интернет  \n"+
     "Тестировщик ПО\n"+ 
     "● Работал с системной интеграцией, автоматизацией технологических и бизнес-процессов предприятия, а также с ИТ-консалтингом\n"+
     "● Применял гибкую методологию разработки Agile (Scrum) и работал с артефактами тестирования в Qase, Jira, TestRail\n"+
