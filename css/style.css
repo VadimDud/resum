@@ -169,7 +169,7 @@
 }
 @media (max-width: 420px) {
   .about, .Technical_skills, .experience, .other, .othexp {
-    display: table;
+    display: block;
     justify-content: space-between;
     align-items: center;
     white-space: pre-line;
@@ -183,15 +183,14 @@
       .main-image {
         margin: 0 auto;
         font-family: cursive;
-        max-width: 100px;
-        height: 40px;
+        max-width: 216px;
+        height: 22px;
         margin: 30px auto;
         background-color: aliceblue;
         font-family: cursive;
+        box-shadow: -19px -6px 13px rgba(-13, 27, 22, -0.5);
         }
-      .note{display: flex;
-        margin-top: -26px;}
-      .exper.note{ max-width: 150;}
+      
       img {
         display: none;
       }
