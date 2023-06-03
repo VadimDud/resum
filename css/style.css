@@ -1,199 +1,196 @@
-/* Updated code with changes */
-
 * {
-	box-sizing: border-box;
-  }
-  
-  body {
-	font-family: cursive;
-  }
-  #summary,
-  #technic,
-  #expernote,
-  #othexp
-   {
-    margin-left: 10px;
- }
-  #calendar {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 400px;
-    height: 300px;
-    background-color: beige;
-    border: 0px solid #999;
-    box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5)
+  box-sizing: border-box;
 }
 
+body {
+  font-family: cursive;
+}
 
+#summary,
+#technic,
+#expernote,
+#othexp {
+  margin-left: 10px;
+}
+
+#calendar {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+  background-color: beige;
+  border: none;
+  box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5);
+}
+
+.whole {
+  max-width: 800px;
+  width: 96%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+button {
+  padding: 1px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: xx-small;
+  color: #fff;
+  background-color: #007bff;
+  box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5);
+}
+
+#Linkedin {
+  background-color: #258954;
+}
+
+#russianBtn {
+  background-color: #007bff;
+}
+
+#Linkedin:hover,
+#englishBtn:hover,
+#russianBtn:hover {
+  opacity: 0.8;
+}
+
+.note {
+  display: table-caption;
+  max-width: 117px;
+  height: 54px;
+  margin: revert;
+  font-size: inherit;
+  margin-top: -30px;
+}
+
+.container {
+  height: 150px;
+  width: 96%;
+  margin: 0 auto;
+  background-color: #34C6FD;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  color: #534B3B;
+  font-family: cursive;
+  font-size: 30.6px;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.discription {
+  display: flex;
+  margin: 20px auto 0px;
+  color: #534B3B;
+  font-size: 20px;
+  font-weight: 700;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.synctoskill {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 10px 10px 0;
+}
+
+.hero {
+  padding-top: 70px;
+}
+
+.about,
+.Technical_skills,
+.experience,
+.other,
+.othexp {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: pre-wrap;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
+.main-image {
+  max-width: 150px;
+  width: 94%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #34C6FD;
+  font-family: cursive;
+  box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5);
+}
+
+.line {
+  width: 76%;
+  border-bottom: 2px solid #534B3B;
+  margin: 1em auto 2em;
+}
+
+.ilust {
+  display: flex;
+  margin: auto 0 auto 200px;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.imagefull {
+  display: flex;
+  height: auto;
+  width: 740px;
+  margin: auto;
+  text-align: justify;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+/* media queries for tablets */
+@media (max-width: 600px) {
   .whole {
-	max-width: 800px;
-	width: 96%;
-	margin: 0 auto;
-	text-align: justify;
-  }
-  
-  button {
-    padding: 1px 10px;
-    border: black;
-    border-radius: 10px;
-    font-size: xx-small;
-    color: #fff;
-    background-color: #007bff;
-    box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5);
-  }
-  #Linkedin
-  {
-	background-color: #258954;
+    width: 96%;
   }
 
-  #russianBtn {
-	background-color: #007bff;
-  }
-  #Linkedin:hover,
-  #englishBtn:hover,
-  #russianBtn:hover {
-	opacity: 0.8;
+  .main-image {
+    margin: 30px auto;
+    font-family: cursive;
+    max-width: 216px;
+    height: 22px;
+    margin: 30px auto;
+    background-color: aliceblue;
+    font-family: cursive;
+    box-shadow: -19px -6px 13px rgba(-13, 27, 22, -0.5);
   }
 
-  .note {
+  img {
+    display: none;
+  }
 
-    display: table-caption;
-    max-width: 117px;
-    height: 54px;
-    margin: revert;
-    font-size: inherit;
-    margin-top: -30px;
-
-  }
-  .container {
-	height: 150px;
-	width: 96%;
-	margin: 0 auto;
-	background-color: #34C6FD;
-    }
-  
-  .navbar {
-	display: flex;
-	justify-content: space-between;
-  }
-  
-  .brand {
-	color: #534B3B;
-	font-family: cursive;
-	font-size: 30.6px;
-	font-weight: 500;
-	margin-left: 15px;
-	margin-top: 10px;
-	text-decoration: none;
-  }
-  
-  .discription {
-    display: flex;
-    margin: 20px auto 0px;
-    color: #534B3B;
-    font-size: 20px;
-    font-weight: 700;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .synctoskill {
-	display: flex;
-	justify-content: space-between;
-	font-size: 15px;
-	margin: 10px 10px 0;
-  }
-  
-  .hero {
-	padding-top: 70px;
-  }
-  
   .about,
   .Technical_skills,
   .experience,
   .other,
   .othexp {
-	display: inline-flex;
-	justify-content: space-between;
-	align-items: center;
-	white-space: pre-wrap;
-	font-family: 'Courier New', Courier, monospace;
-	text-align: left;
-  }
-  
-  .main-image {
-	max-width: 150px;
-	width: 94%;
-	height: 100px;
-	margin: 0 auto;
-	background-color: #34C6FD;
-	font-family: cursive;
-  box-shadow: -10px -11px 23px rgba(0, 0, 0, 0.5);
-  }
-
-  .line {
-	width: 76%;
-	border-bottom: 2px solid #534B3B;
-	margin: 1em auto 2em;
-  }
-  
-  .ilust {
-	display: flex;
-	margin: auto 0 auto 200px;
-	height: 60px;
-	justify-content: space-between;
-  }
-  
-  .imagefull {
-	display: flex;
-	height: auto;
-	width: 740px;
-	margin: auto;
-	text-align: justify;
-  }
-  
-  .paragraph {
-	text-align: center;
-  }
-
-  /* styles for tablets */
-@media (max-width: 200px) {
-  .whole {
-    width: 200px;
-    
-  }
-}
-@media (max-width: 420px) {
-  .about, .Technical_skills, .experience, .other, .othexp {
     display: block;
     justify-content: space-between;
     align-items: center;
     white-space: pre-line;
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
-}
-    
   }
-  @media (max-width: 420px) 
-     {
-      .main-image {
-        margin: 0 auto;
-        font-family: cursive;
-        max-width: 216px;
-        height: 22px;
-        margin: 30px auto;
-        background-color: aliceblue;
-        font-family: cursive;
-        box-shadow: -19px -6px 13px rgba(-13, 27, 22, -0.5);
-        }
-      
-      img {
-        display: none;
-      }
-
 }
+
       
