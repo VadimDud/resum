@@ -40,7 +40,7 @@ const eng = {
     "● Reported software anomalies and defects using Jira, verified bugs fixed \n"+ 
     "● Communicated with other cross-functional team members to identify resolve issues \n"+ 
     "● Participated in Agile Scrum meeting and other Agile rituals \n"+ 
-    "● Utilized Postman for testing web services (environment variables, Mock, JavaScript + библиотека chai...)",
+    "● Utilized Postman for testing web services (environment variables, Mock, JavaScript + chai...)",
     showcalendar: "Show calendar",
     exper: "Software Testing Experience",
     other: "Other Experience",
