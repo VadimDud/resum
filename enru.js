@@ -40,7 +40,7 @@ const eng = {
     "● Reported software anomalies and defects using Jira, verified bugs fixed \n"+ 
     "● Communicated with other cross-functional team members to identify resolve issues \n"+ 
     "● Participated in Agile Scrum meeting and other Agile rituals \n"+ 
-    "● Utilized Postman for testing web services (REST API testing)",
+    "● Utilized Postman for testing web services (environment variables, Mock, JavaScript + библиотека chai...)",
     showcalendar: "Show calendar",
     exper: "Software Testing Experience",
     other: "Other Experience",
@@ -92,7 +92,7 @@ const eng = {
     "● Осуществлял проверку Web приложений на соответствие макету в Figma, а также тестировал API через Postman\n"+
     "● Использовал различные расширения и DevTools в браузере, работал с PostgreSQL, писал скрипты на Python (Selenium WebDriver) для автоматизации UI и API, парсинга сайтов в приложениях VS code и PyСharm\n"+
     "● Выполнял нагрузочное тестирование через JMeter и проводил тестирование безопасности (OWASP ZAP)\n"+
-    "● Использовал Postman для тестирования веб-сервисов (REST API)\n"+
+    "● Использовал Postman для тестирования веб-сервисов (environment variables, Mock, JavaScript + библиотека chai...)\n"+
     "● Участвовал в запуске четырех проектов, изучал бизнес- и технические требования, разрабатывал и поддерживал тестовую документацию, выполнял тестовые процедуры для новых сборок, принимал участие в регрессионном тестировании, приемке сборок, интеграции и тестировании на уровне системы\n"+
     "● Сообщал об аномалиях и дефектах программного обеспечения с помощью Jira, а также общался с другими членами кросс-функциональной команды для выявления и решения проблем\n"+
     "● Участвовал в собраниях Agile Scrum и других Agile-ритуалах\n"+
