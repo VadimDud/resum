@@ -124,6 +124,9 @@ button {
 }
 
 .main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 150px;
   width: 94%;
   height: 100px;
